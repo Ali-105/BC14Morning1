@@ -2,8 +2,8 @@ package day14;
 
 public class HomeWork {
     public static void main(String[] args) {
-        //MyMultiplicationTable(10);
-        cheesBoard(3);
+        MyMultiplicationTable(10);
+        //cheesBoard(3);
     }
 
     private static void cheesBoard(int a ) {
