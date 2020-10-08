@@ -5,7 +5,7 @@ public class ColorPrint {
         myColorPrintfIntroTwo();
     }
 
-    private static void myColorPrintfIntroTwo() {
+    public static void myColorPrintfIntroTwo() {
         final String ANSI_RESET = "\u001B[0m";
         final String ANSI_BLACK = "\u001B[30m";
         final String ANSI_RED = "\u001B[31m";
