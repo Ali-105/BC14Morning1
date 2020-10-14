@@ -1,0 +1,49 @@
+body {
+    background-color: red;
+}
+
+h1 {
+    background-color: violet;
+    color: yellow;
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3 {
+    color: white;
+    font-family: Source Code Pro,
+        Menlo, Monako, fixed - white;
+
+}
+
+p {
+    front-familie: Open Sans;
+    background-color: antiquewhite; 
+    color: black;
+}
+.second_article{
+    background-color: brown;
+}
+blockquote {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  ul{
+      font-size: 30px;
+  }
+  li{
+      padding: 10px;
+  }
+
+  img{
+      border-radius: 250px;
+      width: 500px;
+      height: auto;
+      margin-left: 40px;
+      border-color: wheat;
+      border-width: 10px;
+      border-style: solid;
+  }

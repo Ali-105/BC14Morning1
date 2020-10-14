@@ -4,7 +4,7 @@ import static day07.HelloBoolean.split;
 
 public class MultiDimensionalArrays {
     public static void main(String[] args) {
-        //month();
+        month();
         split();
         //simpleTable();
         split();
@@ -12,7 +12,7 @@ public class MultiDimensionalArrays {
         split();
         //arrayFor();
         split();
-        arrayFive();
+        //arrayFive();
     }
 
     private static void arrayFive() {

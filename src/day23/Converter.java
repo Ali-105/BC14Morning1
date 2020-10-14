@@ -25,8 +25,8 @@ public class Converter {
         while (numberDecimal > 0){
             int remainder;
             remainder = numberDecimal % systemKooficient;
-            resultBinary = remainder + resultBinary;
             numberDecimal = numberDecimal/ 2;
+            resultBinary = remainder + resultBinary;
         }
 
 

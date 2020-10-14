@@ -18,7 +18,7 @@ public class Hw20 {
     }
 
     private static int giveMeMax(int[] array) {
-        int max = Integer.MAX_VALUE;
+        int max = Integer.MIN_VALUE;
         max = array[0];
         for (int i = 0; i < array.length ; i++) {
             max = (max > array[i]) ? max : array[i];
