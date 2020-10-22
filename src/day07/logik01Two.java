@@ -12,7 +12,6 @@ public class logik01Two {
         System.out.println(verySmartDoor(false, false));// -> true
 
 
-
     }
 
     private static boolean verySmartDoor(boolean b, boolean b1) {
@@ -25,6 +24,7 @@ public class logik01Two {
     }
 
     private static boolean doorbell(boolean bellOne, boolean bellTwo) {
-        return bellOne^bellTwo;
+
+        return bellOne ^ bellTwo;
     }
 }

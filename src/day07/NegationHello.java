@@ -10,7 +10,8 @@ public class NegationHello {
         //ЕСЛИ статус кнопки TRUE,
         // то статус метода isActiveMachine должен быть false
     }
-    public static boolean isAktiveMachine(boolean stopSignal){
+
+    public static boolean isAktiveMachine(boolean stopSignal) {
         return !stopSignal;
     }
 }

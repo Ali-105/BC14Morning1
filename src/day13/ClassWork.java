@@ -8,7 +8,7 @@ public class ClassWork {
         //myCodePointCount();
         //myCompareTo();
         //myContains();
-        //myEquals();
+        myEquals();
         //MyTrim();
     }
 
@@ -18,16 +18,16 @@ public class ClassWork {
     }
 
     private static void myEquals() {
-        String test = " vasilii";
-        String test1 = "Vasilii";
-        System.out.println(test1.equals(test.trim()));
+        String test = "Vasilii";
+        String test1 = "vasilii";
+        System.out.println(test1.equals(test.toLowerCase()));
     }
 
     private static void myContains() {
         String hm = "Vasilii";
         String etalon = "l";
         System.out.println(hm.contains(etalon));
-        System.out.println(hm.endsWith(etalon));
+        //System.out.println(hm.endsWith(etalon));
     }
 
     private static void myCompareTo() {

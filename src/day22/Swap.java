@@ -3,9 +3,9 @@ package day22;
 public class Swap {
     public static void main(String[] args) {
         swapOne();
-        swapTwo();
+        /*swapTwo();
         swapThree();
-        swapFor();
+        swapFor();*/
 
     }
 
@@ -38,6 +38,6 @@ public class Swap {
         int temp = a;
         a = b;
         b = temp;
-        System.out.println(a);
+        System.out.println(b);
     }
 }

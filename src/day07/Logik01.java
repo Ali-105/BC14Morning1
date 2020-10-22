@@ -11,9 +11,9 @@ public class Logik01 {
         System.out.println(smartDepositBoxVersionTwo(false, false));// -> false
         System.out.println(smartDepositBoxVersionTwo(true, true));// -> true
         split();
-       boolean mamaPermission = true;
-       boolean papaPermission = true;
-       boolean omaPermission = false;
+        boolean mamaPermission = true;
+        boolean papaPermission = true;
+        boolean omaPermission = false;
         System.out.println(verySmartDepositBoxVersionThree(mamaPermission, papaPermission, omaPermission));
         split();
         System.out.println(bigBadaBoom(true, true));// -> true
@@ -24,6 +24,7 @@ public class Logik01 {
     }
 
     private static boolean bigBadaBoom(boolean b, boolean b1) {
+
         return b1 & b;
     }
 
@@ -37,6 +38,7 @@ public class Logik01 {
     }
 
     private static boolean smartDepositBoxVersionTwo(boolean b, boolean b1) {
+
         return b & b1;
     }
 
